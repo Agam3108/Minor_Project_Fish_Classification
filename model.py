@@ -44,8 +44,8 @@ Ensure you have Python installed, then set up the environment:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-repo/fish-classification-app.git
-cd fish-classification-app
+git clone https://github.com/Agam3108/Minor_Project_Fish_Classification.git
+cd Minor_Project_Fish_Classification
 
 # Install dependencies
 pip install -r requirements.txt
@@ -56,7 +56,7 @@ pip install -r requirements.txt
 Run the Streamlit app with:
 
 ```bash
-streamlit run app.py
+streamlit run model.py
 ```
 
 This will launch the web app in your default web browser.
@@ -65,7 +65,7 @@ This will launch the web app in your default web browser.
 
 1. Open the app in your browser.
 2. Upload an image of a fish.
-3. Click the **Classify** button.
+3. Click the **Predict** button.
 4. View the predicted species and confidence scores.
 
 ## Example Output
@@ -86,7 +86,7 @@ Feel free to submit pull requests or report issues via GitHub.
 
 ## License
 
-MIT License © 2025 
+GPU General Public Licence
 
 """)
 elif(app_mode=="About"):
