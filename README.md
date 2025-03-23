@@ -1,6 +1,5 @@
 # Fish_Classification_Recognition_Minor
  
-#🐟 Fish Classification and Recognition System
 📌 Introduction to the Problem
 Estimating the relative abundance of fish species in their habitats and monitoring population fluctuations are crucial for marine scientists and conservationists. Traditionally, this has been done through manual sampling, which is time-consuming and inefficient.
 
@@ -45,7 +44,9 @@ Images are ordered from "00000.png" to "01000.png".
 📌 Example:
 If you want to access the ground truth images of shrimp, the order should be followed as:
 Fish -> Shrimp -> Shrimp GT
+
 🧠 Model Information - MobileNetV2 Architecture
+
 We have used MobileNetV2, a lightweight deep learning model, for fish classification.
 
 Why MobileNetV2?
@@ -78,18 +79,18 @@ We use deep learning models to classify fish species accurately from an input im
 ⚙️ Installation & Setup
 Ensure you have Python installed, then set up the environment:
 
-bash
-Copy
-Edit
+
 # Clone the repository
 git clone https://github.com/Agam3108/Minor_Project_Fish_Classification.git
 cd Minor_Project_Fish_Classification
 
 # Install dependencies
 pip install -r requirements.txt
+
 ▶️ Running the Application
 Run the Streamlit web app with:
 streamlit run model.py
+
 This will launch the web application in your default browser.
 
 📝 Usage
@@ -99,5 +100,6 @@ This will launch the web application in your default browser.
 4️⃣ View the predicted species and confidence score.
 
 Example Output
+
 Predicted Species: Salmon  
 Confidence: 95.3%
